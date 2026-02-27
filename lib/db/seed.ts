@@ -6,6 +6,9 @@
 // Must set MONGODB_URI before running:
 // MONGODB_URI=mongodb+srv://... npm run db:seed
 
+import dotenv from 'dotenv'
+dotenv.config({ path: '.env.local' })
+
 import mongoose from 'mongoose'
 import { hashPassword }  from '../utils/hash.util'
 
@@ -36,7 +39,7 @@ async function main() {
     Client.deleteMany({}),
     Project.deleteMany({}),
   ])
-
+ 
   // ── Users ─────────────────────────────────────────────────
   console.log('👤 Creating users...')
 
