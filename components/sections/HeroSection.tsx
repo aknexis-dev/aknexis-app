@@ -34,10 +34,10 @@ export function HeroSection() {
           {/* Headline */}
           <h1 className="font-display font-800 tracking-tight text-balance leading-[1.04] text-slate-50 mb-6 animate-fade-up"
               style={{ fontSize: 'clamp(2.5rem, 7vw, 5rem)' }}>
-            Software built for{' '}
-            <span className="gradient-text">serious scale.</span>{' '}
-            Partners built for{' '}
-            <span className="gradient-text">the long term.</span>
+            Launch Your Fully{' '}
+            <span className="gradient-text">Compliant Business.</span>{' '}
+            Without Legal or {' '}
+            <span className="gradient-text">Technical Confusion.</span>
           </h1>
 
           {/* Sub */}
